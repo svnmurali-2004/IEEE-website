@@ -6,12 +6,13 @@ import HeroSection from '../components/HeroSection';
 import ConferenceTimer from '../components/ConferenceTimer';
 import '../styles/Home.css'; // Import CSS
 import IEEEConferenceTable from '../components/IEEEConferenceTable';
-import IEEEImportantDates from "../components/IEEEImportantDates"
+import IEEEImportantDates from "../components/IEEEImportantDates";
+import NavBar2 from '../components/NavBar2';
 const Home = () => {
   return (
     <div className="home-container">
       {/* Navbar at the top */}
-      <Navbar />
+      <NavBar2 />
 
       {/* Main content */}
       <div className="main-content">
