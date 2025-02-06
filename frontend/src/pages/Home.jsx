@@ -7,6 +7,8 @@ import ConferenceTimer from '../components/ConferenceTimer';
 import '../styles/Home.css'; // Import CSS
 import IEEEConferenceTable from '../components/IEEEConferenceTable';
 import IEEEImportantDates from "../components/IEEEImportantDates"
+import Sponsors from '../components/Sponsors';
+
 const Home = () => {
   return (
     <div className="home-container">
@@ -19,6 +21,7 @@ const Home = () => {
         <ConferenceTimer />
         <IEEEImportantDates/>
         <AgendaSpeakers />
+        <Sponsors/>
       </div>
 
       {/* Footer at the bottom */}
