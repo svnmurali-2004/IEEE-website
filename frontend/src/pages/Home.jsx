@@ -6,6 +6,7 @@ import HeroSection from '../components/HeroSection';
 import ConferenceTimer from '../components/ConferenceTimer';
 import '../styles/Home.css'; // Import CSS
 import IEEEConferenceTable from '../components/IEEEConferenceTable';
+import Sponsors from '../components/sponsors';
 const Home = () => {
   return (
     <div className="home-container">
@@ -18,6 +19,7 @@ const Home = () => {
         <ConferenceTimer />
         <IEEEConferenceTable/>
         <AgendaSpeakers />
+        <Sponsors/>
       </div>
 
       {/* Footer at the bottom */}
