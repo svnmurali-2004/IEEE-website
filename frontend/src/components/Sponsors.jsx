@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/Sponsors.css";
-import googleLogo from "../assets/google.jpg";
-import microsoftLogo from "../assets/microsoft.svg";
-import ibmLogo from "../assets/ibm.webp";
-import amazonLogo from "../assets/amazon.webp";
+import googleLogo from "/google.jpg";
+import microsoftLogo from "/Microsoft.svg";
+import ibmLogo from "/ibm.webp";
+import amazonLogo from "/Amazon.webp";
 
 const sponsors = [
   { name: "Google", logo: googleLogo, link: "https://google.com" },
